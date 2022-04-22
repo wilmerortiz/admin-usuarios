@@ -42,13 +42,6 @@ class UsersController extends AppController {
             throw new NotFoundException(__('Invalid user'));
         }
 		$user = $this->User->findById($id);
-		if($this->Auth->user('role') != 'admin' && $this->Auth->user('id') != $user['User']['id']){
-			$this->Flash->error(
-                __('No tienes accesos para ver los datos de otros Personas, comunicate con administración')
-            );
-			return $this->redirect(array('action' => 'index'));
-		}
-
 
         $this->set(compact('user'));
     }

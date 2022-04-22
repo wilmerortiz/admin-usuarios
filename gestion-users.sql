@@ -45,7 +45,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `full_name`, `email`, `username`, `password`, `role`, `status`, `created`, `modified`) VALUES
 (1, 'Wilmer Ortiz Castillo', 'wilmerortizcastillo.af@gmail.com', 'admin', '$2a$10$xJUoBeqO2U2YzEdC3sHWouWzT3WSVef7FGc81CMcOLiTDG5HXmRbm', 'admin', 'A', '2022-04-22 17:48:06', '2022-04-22 17:58:59'),
-(2, 'Julio Delgado', 'visita@gmail.com', 'julio', '$2a$10$xJUoBeqO2U2YzEdC3sHWouWzT3WSVef7FGc81CMcOLiTDG5HXmRbm', 'visita', 'A', '2022-04-22 19:11:31', '2022-04-22 21:15:01');
+(2, 'Julio Delgado', 'visitante@gmail.com', 'julio', '$2a$10$xJUoBeqO2U2YzEdC3sHWouWzT3WSVef7FGc81CMcOLiTDG5HXmRbm', 'visita', 'A', '2022-04-22 19:11:31', '2022-04-22 21:15:01');
 
 --
 -- Índices para tablas volcadas
